@@ -6,7 +6,6 @@
     --font-family: "Roboto", "Arial", sans-serif;
 }
 
-.hero,
 .features,
 .sale,
 .information {
@@ -217,7 +216,7 @@ img {
 }
 
 .lead-cta {
-    width: 490px;
+    max-width: 490px;
 }
 
 .lead-cta-heading,
@@ -248,6 +247,10 @@ img {
 .lead-cta-paragraph {
     border-left-color: #fff;
     color: #fff;
+}
+
+.hero-img {
+    display: none;
 }
 
 
@@ -361,6 +364,26 @@ only screen and (                min-resolution: 2dppx) {
 
 
 /* MEDIA-QUERIES */
+@media only screen and (max-width: 1250px) {
+    .hero {
+        background-image: none;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .hero-container {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 40px;
+    }
+    
+    .hero-img {
+        display: block;
+        object-fit: contain;
+    }
+}
+
 @media only screen and (max-width: 800px) {
     .site-header {
         padding-top: 20px;
@@ -415,5 +438,81 @@ only screen and (                min-resolution: 2dppx) {
         width: 35px;
         height: 35px;
         color: var(--text-color);
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .hero-img {
+        width: 487px;
+        height: 465px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .hero-img {
+        width: 387px;
+        height: 365px;
+    }
+    
+    .lead-cta-heading {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .hero {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .hero-container {
+        gap: 20px;
+    }
+    
+    .hero-img {
+        width: 337px;
+        height: 315px;
+    }
+    
+    .lead-cta-heading {
+        margin-bottom: 15px;
+    }
+    
+    .lead-cta-paragraph {
+        padding-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .hero-img {
+        width: 283px;
+        height: 265px;
+    }
+    
+    .lead-cta-paragraph {
+        margin-bottom: 20px;
+    }
+    
+    .button {
+        padding-left: 10px;
+        padding-right: 10px;
+        min-width: 240px;
+    }
+}
+
+@media only screen and (max-width: 305px) {
+    .hero-img {
+        width: 253px;
+        height: 235px;
+    }
+    
+    .lead-cta-heading {
+        font-size: 35px;
+    }
+    
+    .lead-cta-paragraph {
+        padding-left: 15px;
+        margin-bottom: 15px;
     }
 }
