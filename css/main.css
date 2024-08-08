@@ -6,10 +6,6 @@
     --font-family: "Roboto", "Arial", sans-serif;
 }
 
-.information {
-    display: none;
-}
-
 /* GLOBAL */
 html {
     height: 100%;
@@ -385,10 +381,20 @@ only screen and (                min-resolution: 2dppx) {
         object-fit: contain;
     }
     
-    .features,
-    .sale {
+    .features {
         padding-top: 50px;
         padding-bottom: 50px;
+    }
+    
+    .sale {
+        padding-top: 0;
+        padding-bottom: 50px;
+    }
+    
+    .information {
+        padding-top: 200px;
+        padding-bottom: 200px;
+        background-position: left center;
     }
 }
 
