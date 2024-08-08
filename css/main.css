@@ -6,7 +6,6 @@
     --font-family: "Roboto", "Arial", sans-serif;
 }
 
-.sale,
 .information {
     display: none;
 }
@@ -386,9 +385,17 @@ only screen and (                min-resolution: 2dppx) {
         object-fit: contain;
     }
     
-    .features {
+    .features,
+    .sale {
         padding-top: 50px;
         padding-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .sale-container {
+        flex-direction: column-reverse;
+        gap: 40px;
     }
 }
 
@@ -563,6 +570,10 @@ only screen and (                min-resolution: 2dppx) {
         padding-right: 10px;
         min-width: 240px;
     }
+    
+    .lead-cta-heading {
+        font-size: 35px;
+    }
 }
 
 @media only screen and (max-width: 305px) {
@@ -572,7 +583,7 @@ only screen and (                min-resolution: 2dppx) {
     }
     
     .lead-cta-heading {
-        font-size: 35px;
+        font-size: 30px;
     }
     
     .lead-cta-paragraph {
