@@ -6,7 +6,6 @@
     --font-family: "Roboto", "Arial", sans-serif;
 }
 
-.features,
 .sale,
 .information {
     display: none;
@@ -269,15 +268,14 @@ img {
     padding: 0;
     margin: 0;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
 }
 
 .features-item {
     width: 280px;
     list-style: none;
-}
-
-.features-item:not(:last-child) {
-    margin-right: 80px;
 }
 
 .features-title {
@@ -387,6 +385,11 @@ only screen and (                min-resolution: 2dppx) {
         display: block;
         object-fit: contain;
     }
+    
+    .features {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
 }
 
 @media only screen and (max-width: 800px) {
@@ -494,6 +497,18 @@ only screen and (                min-resolution: 2dppx) {
     .hero-img {
         width: 487px;
         height: 465px;
+    }
+    
+    .features-list {
+        gap: 40px;
+    }
+    
+    .features-title {
+        margin-bottom: 10px;
+    }
+    
+    .features-subtitle {
+        margin-bottom: 15px;
     }
 }
 
