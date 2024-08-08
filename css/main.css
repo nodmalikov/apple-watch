@@ -394,6 +394,8 @@ only screen and (                min-resolution: 2dppx) {
     .information {
         padding-top: 200px;
         padding-bottom: 200px;
+        background-position: left center;
+        height: 70vh;
     }
 }
 
