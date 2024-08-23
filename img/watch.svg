@@ -1,6 +1,6 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
-<svg fill="#ffd500" height="800px" width="800px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" stroke="#ffd500">
+<svg fill="#ea625c" height="800px" width="800px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" stroke="#ea625c">
 <g id="SVGRepo_bgCarrier" stroke-width="0"/>
 <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
 <g id="SVGRepo_iconCarrier"> <g> <g> <path d="M468.274,234.667C462.218,173.666,430.468,120.229,384,85.323V0H128v85.323c-46.468,34.906-78.218,88.343-84.274,149.343 H14.222v42.667h29.504C49.782,338.334,81.532,391.771,128,426.677V512h256v-85.323c46.468-34.906,78.218-88.343,84.274-149.343 h29.504v-42.667H468.274z M256,426.667c-94.256,0-170.667-76.41-170.667-170.667S161.744,85.333,256,85.333 S426.667,161.744,426.667,256S350.256,426.667,256,426.667z"/> </g> </g> <g> <g> <path d="M234.667,234.667v-64h42.667v64h104.879C372.025,174.205,319.31,128,256,128c-70.579,0-128,57.419-128,128 s57.421,128,128,128c63.312,0,116.026-46.205,126.212-106.667H234.667V234.667z"/> </g> </g> </g>
