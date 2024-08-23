@@ -37,6 +37,26 @@ img {
     height: auto;
 }
 
+/* LOADER */
+#loader {
+    border: 12px solid var(--striking-color);
+    border-top: 12px solid var(--text-color);
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    animation: spin 1s linear infinite;
+}
+
+.center {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 110;
+}
+
 /* GLOBAL-OUTLINE */
 .button:focus {
     outline: 2px dashed var(--striking-color);
