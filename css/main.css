@@ -57,6 +57,12 @@ img {
     z-index: 110;
 }
 
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 /* GLOBAL-OUTLINE */
 .button:focus {
     outline: 2px dashed var(--striking-color);
