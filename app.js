@@ -30,6 +30,27 @@ elJsMobileBtn.addEventListener('click', function () {
     elSitenav.classList.toggle('open-menu');
 });
 
+// TOUCH-RIGHT
+let startX = 0;
+
+if (elSitenav) {
+    function handleTouchStart(event) {
+        startX = event.touches[0].clientX;
+    }
+    
+    function handleTouchMove(event) {
+        let touch = event.touches[0];
+        let change = touch.clientX - startX;
+        
+        if (change > 50) { // if swiped right by more than 50px
+            elSitenav.classList.remove('open-menu');
+        }
+    }
+    
+    document.addEventListener('touchstart', handleTouchStart, false);
+    document.addEventListener('touchmove', handleTouchMove, false);
+}
+
 // LOADER
 document.onreadystatechange = function () {
     if (document.readyState !== "complete") {
